@@ -44,7 +44,10 @@ def openTidalSession(tidalSessionConfig):
         webbrowser.open(tidalLoginUri)
         tidalLoginFuture.result()
 
-    tidalSession.token_refresh(tidalSession.refresh_token)
+    if tidalSession.token_refresh(tidalSession.refresh_token):
+        print("DEBUG: TIDAL Authorization token has successfully refreshed!")
+    else:
+        print("ERROR: TIDAL Authorization token refresh has failed!")
 
     with open('tidal_session_config.yml', 'w') as tidalSessionFile:
         yaml.dump({'TIDAL_TOKEN_TYPE': tidalSession.token_type,
