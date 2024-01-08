@@ -63,10 +63,10 @@ tidalfy is a Python script, currently in development as of January 2024, with th
 		runs-on: ubuntu-latest
 		steps:
 		  - name: Checkout repository contents
-			uses: actions/checkout@v2
+			uses: actions/checkout@v4
 
 		  - name: Setup Python Version
-			uses: actions/setup-python@v4
+			uses: actions/setup-python@v5
 			with:
 			  python-version: 3.11.2 
 			  # 3.11.2 is currently stable
@@ -92,7 +92,7 @@ tidalfy is a Python script, currently in development as of January 2024, with th
 			  username: github-actions
 
 		  - name: Push Changes
-			uses: ad-m/github-push-action@v0.6.0
+			uses: ad-m/github-push-action@v0.8.0
 			with:
 			  github_token: ${{secrets.GITHUB_TOKEN}}
 			  branch: main
