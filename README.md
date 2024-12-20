@@ -10,7 +10,7 @@
 
 [![GitHub Contributors](https://img.shields.io/github/contributors/skang188144/tidalfy.svg?label=Contributors)](https://github.com/skang188144/tidalfy/graphs/contributors) [![GitHub Forks](https://img.shields.io/github/forks/skang188144/tidalfy.svg?label=Forks)](https://github.com/skang188144/tidafy/forks) [![GitHub Stars](https://img.shields.io/github/stars/skang188144/tidalfy.svg?label=Stars)](https://github.com/skang188144/tidalfy/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/skang188144/tidalfy.svg?label=Issues)](https://github.com/skang188144/tidalfy/issues) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-tidalfy is a Python script, currently in development as of January 2024, with the goal of providing a seamless migration from Spotify to TIDAL. The script, written in Python, utilizes tidalapi and spotipy to provide Daily Mix migration. Additional features are TBA. 
+tidalfy is a Python script with the goal of providing a seamless migration from Spotify to TIDAL. The script, written in Python, utilizes tidalapi and spotipy to provide Daily Mix migration. Additional features are TBA. 
 
 ## Key Features
 
